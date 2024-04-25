@@ -1,0 +1,84 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    background-image: url(photos/photoOfLondon.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header,
+aside,
+footer,
+main {
+    background-color: rgba(250, 235, 215, 80%);
+    border: 2px gray solid;
+}
+
+main {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: rgba(250, 235, 215, 80%);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    line-height: 200px;
+
+}
+
+aside {
+    position: fixed;
+    margin-top: 10px;
+    border-radius: 0 10px 10px 0;
+    width: fit-content;
+    height: 500px;
+
+}
+
+#hiddenAside {
+    display: none;
+    height: 460px;
+    margin: 0;
+    vertical-align: top;
+
+}
+
+#hiddenHere {
+    display: none;
+    height: 500px;
+    width: 50px;
+}
+
+#textOfHiddenAside {
+    display: none;
+    padding: 20px;
+}
+
+#here {
+    width: 50px;
+    height: 500px;
+    display: inline-block;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+#footerText {
+    display: inline-block;
+    margin-top: 20px;
+}
